@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+html{
+    font-size: 66.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ////////// home page(navbar) ///////// */
+.nav-bar{
+    padding: 2rem;
+    margin-top: -17px;
+    padding-top:25px;
+    margin-bottom:-25px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.288);
+}
+
+.navlogo
+{
+    width:9%;
+    height:8%;
+    margin-top:-15px;
+    margin-bottom:-90px;
+    margin-left:-85px;
+}
+.nav-bar .nav-items{
+    float: right;
+    margin-top: 1rem;
+}
+
+.nav-bar::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav-items .nav-item{
+    display: inline-block;
+    padding: 1rem;
+    text-transform: uppercase;
+}
+
+.nav-items a{
+    padding-bottom: 0.3rem;
+}
+.nav-items a:hover
+{
+    color:black;
+}
+
+.contanor{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.sh
+{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    color:gray;
+}
+.sh:hover{
+    color:black;
+}
+
+
+
+/* welcome text */
+.header-content{
+    position: relative;
+    height: 95vh;
+    margin-top:25px;
+    background: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.5)),url('https://www.gujarattourism.com/tripplanner/public/images/common-banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mh{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color:white;
+    padding-top:270px;
+    text-align: center;
+}
+
+.sh1{
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    color:white;
+    text-align: center;     
+}
+.color{
+  background-color:#deddddda ;
+}
+
+
+      
+
+
+
